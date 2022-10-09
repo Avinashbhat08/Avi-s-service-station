@@ -1,0 +1,157 @@
+html{
+background-image: url(image/block.jpg);
+background-size: contain;
+  }
+  body{
+     font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   background-repeat: no-repeat;
+   background-position:  center;
+   }
+   header {
+    width: 1024px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main2{
+    width: 1024px;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section{
+    display: flex;
+    margin-right:240px ;
+    margin-left: 240px;
+    width: 1024px;
+    min-width: 300px;
+ }
+main2 h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 630px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+header a{
+    font-size: 25px;
+    justify-content: space-between ;
+    text-decoration: none;
+    color: rgb(246, 232, 232);
+    margin: 40px;
+}
+.mybutton{
+    color: #fcedf2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 10px 10px 10px rgba(220, 20, 60, 0.212); 
+    border-radius: 3px;
+    border-style: solid;
+  }
+  .mybutton:hover{
+    background-color: #f1115c;
+    transition-duration: 1s;
+  }
+  .vr{
+    display: flex;
+    justify-content:space-between ;
+    text-decoration: underline;
+    margin-right:240px ;
+    margin-left: 240px;
+    border:5px solid white;
+  }
+
+  .box1{
+     flex:1;
+     margin-top: 20px;
+    
+  }
+  .box2{
+    flex: 1;
+  }
+ .box2  h1{
+ color: rgb(255, 255, 255);
+ font-size: 35px;
+ margin-left: 30px;
+ }
+ .box2  p{
+  color: rgb(249, 244, 244);
+  font-size: 25px;
+  margin-left: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .h1 ,.h2,.h3,.h4 {
+    color: rgb(249, 244, 244);
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .ourteam{
+    text-align: center;
+  }
+  .ourteam p{
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .card{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+  }
+  .card1{
+background-image: url(image/team-1.jpg);
+    min-height: 300px;
+    width:23%;
+    background-size: cover;
+  }
+  .card2{
+   background-image: url(image/team-2.jpg);
+    min-height: 300px;
+    width:23%
+  }
+  .card3{
+   background-image: url(image/team-3.jpg);
+    min-height: 300px;
+    width:23%
+  }
+  .card4{
+   background-image:url(image/team-4.jpg);
+    min-height: 300px;
+    width:23%;
+  }
+  .card1 h1,.card2 h1,.card3 h1,.card4 h1{
+    text-align: center;
+    margin-top: 300px;
+    background-color: rgba(255, 255, 255, 0.47);
+    border: 2px solid rgb(252, 15, 15);
+    color: rgba(255, 0, 0, 0.733);
+  }
+ .card1 p,.card2 p,.card3 p,.card4 p {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.47);
+  border: 2px solid rgb(252, 15, 15);
+  color: rgba(255, 0, 0, 0.733);
+  font-style: italic;
+}
+footer{
+display: flex;
+  min-height: 300px;
+  background-size: cover;
+  margin-top: 30px;
+}
+.class1 h1,.class2 h1{
+  margin-left: 100px;
+}
+.class1 p,.class2 p{
+  margin-left: 100px;
+}
+iframe{
+  margin-left: 200px;
+  margin-top: 20px;
+}

@@ -1,0 +1,87 @@
+html{
+
+  background-image: url(image/block.jpg);
+  background-size: contain;
+  }
+  body{
+    background-image: url(image/background.png);
+     font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   background-repeat: no-repeat;
+   background-position: top center;
+   }
+   header {
+    width: 1024px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main2{
+    width: 1024px;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+main2 h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 300px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+header a{
+    font-size: 25px;
+    justify-content: space-between ;
+    text-decoration: none;
+    color: rgb(246, 232, 232);
+    margin: 40px;
+}
+.mybutton{
+    color: #fcedf2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 10px 10px 10px rgba(220, 20, 60, 0.212); 
+    border-radius: 3px;
+    border-style: solid;
+  }
+  .mybutton:hover{
+    background-color: #f1115c;
+    transition-duration: 1s;
+  }
+main2 p{
+    font-size: 15px; 
+    padding-left: 300px;
+    padding-right: 300px;
+}
+section{
+  width: 1024px;
+  min-width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 300px;
+}
+
+.input{
+  margin-bottom: 3%;
+}
+input[type=text] ,[type=email] , textarea {
+  padding: 12px 20px;
+}
+footer{
+  width: 1024px;
+  min-width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer h1{
+  font-size: 8px;
+  margin-top: 150px;
+  text-align: center;
+}
